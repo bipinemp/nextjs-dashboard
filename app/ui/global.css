@@ -2,17 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-input[type='number'] {
+:root {
+  --primary-white: #ffff;
+  --secondary-white: #f3f4f6;
+  --paid: #10e84a;
+  --pending: #8b8f8c;
+}
+
+input[type="number"] {
   -moz-appearance: textfield;
   appearance: textfield;
 }
 
-input[type='number']::-webkit-inner-spin-button {
+input[type="number"]::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
-input[type='number']::-webkit-outer-spin-button {
+input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
